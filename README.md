@@ -34,7 +34,7 @@ checkout BEM class naming convention
 
 CSS quick: 
 ```
-<tag, * for all> {
+<tag or classname, * for all> {
   <key>: <value>; /* comments */
 }
 ```
@@ -53,12 +53,12 @@ function Func() {
 export default Func
 ```
 
-4. [Material UI](https://mui.com/getting-started/usage/)
+# 4. [Material UI](https://mui.com/getting-started/usage/)
 For [icons](https://mui.com/zh/components/icons/#main-content), and [list of them](https://mui.com/zh/components/material-icons/)  
 
-5. Tinder cards
+# 5. Tinder cards
 Mainly from: 
 ```
 npm i react-tinder-card
 ```
-Also checkout `state` in js
+Also checkout `state` in js and `!important` in css. 
