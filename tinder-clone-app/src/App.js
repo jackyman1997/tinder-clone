@@ -8,7 +8,6 @@ function App() {
   return (
     // BEM class naming convention
     <div className="app">
-
       <Header />
       <TinderCards />
       <SwipeButtons />

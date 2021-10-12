@@ -62,3 +62,38 @@ Mainly from:
 npm i react-tinder-card
 ```
 Also checkout `state` in js and `!important` in css. 
+
+# 6. Backend
+New folder, using express and node. 
+```
+npm init
+```
+In `index.js` or `server.js` (`main`), write the backend logic. 
+```
+import express from "express";
+import mongoose from "mongoose";
+
+// App Config
+const app = express();  // define an instance
+const port = process.env.PORT || 8001  // define port
+
+
+// Middlewares
+
+
+// DB config
+
+
+// API Endpoints
+app.get('/', (req, res) => res.status(200).send('DONE, 200')); // root resource
+
+// Listener 
+app.listen(port, () => console.log(`listening on localhost: ${port}`));
+```
+You need this for running and listening locally:  
+```
+sudo npm i nodemon
+```
+
+# ??. Deploying
+checkout [Heroku]()
